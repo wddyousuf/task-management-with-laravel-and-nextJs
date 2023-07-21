@@ -1,0 +1,68 @@
+.card-title {
+  text-transform: capitalize;
+}
+.header-elements {
+  .form-control {
+    font-size: 14px;
+    min-width: 207px;
+    margin: 0 15px;
+  }
+  .btn-sm {
+    height: 35px;
+    min-width: 55px;
+  }
+  .form-select {
+    font-size: 14px;
+    min-width: 207px;
+  }
+}
+
+.app-brand-logo.demo {
+  max-width: 170px;
+  width: unset;
+  height: unset;
+}
+
+.add-support-btn {
+  min-width: 90px !important;
+}
+
+.common-fieldset-main {
+  margin-bottom: 20px;
+  .common-fieldset {
+    padding: 15px 19px 19px 19px !important;
+    border: 1px solid #e9ebec !important;
+    border-radius: 4px;
+    legend {
+      text-align: left !important;
+      font-size: 1.125rem;
+      font-weight: 600;
+      line-height: 1.37;
+      color: #5d596c;
+      margin: 0 auto;
+      width: auto;
+      float: none;
+      font-size: 1.2em;
+      padding: 2px 20px;
+      background: #e9ebec;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.mw-125 {
+  min-width: 125px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
